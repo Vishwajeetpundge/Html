@@ -4,22 +4,77 @@
 
 </head>
 <body>
-    <h1>Login Form</h1>
-    <fieldset>
-        <legend>Login</legend>
+    <h1>Student Signup Form</h1>
     <div>
-        
-        <label>Usename:</label><br>
-        <input type="text">
-    <br>
-    <br>
+    <fieldset>
+        <legend>Personal Information</legend>
     
+            <label>Frist Name:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label>Last Name:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label>Gender:</label><br>
+           
+             <input type="radio"  name="m" value="Male">
+             <label>Male</label><br>
+             <input type="radio" name="m" value="Female">
+             <label>Female</label>
+             <br>
+             <br>
+             <label>Date of Birth:</label><br>
+             <input type="date" id="date" name="date" min="2000-01-01" max="2025-12-31"><br>
+             <br>
+             <label for="email">Email:</label><br>
+             <input id="email" type="email"><br>
+             <br>
+             <label>Phone Number:</label><br>
+             <input type="number">
+    </fieldset>
+</div>
+<div>
+    <fieldset>
+        <legend>Academic Information:</legend>
+
+        <label>Grade/Year:</label><br>
+        <input type="text">
+        <br>
+        <br>
+        <label>course:</label><br>
+         <select>
+            <option value="-1">select</option>
+            <option>science</option>
+            <option>math</option>
+            <option>marathi</option>
+         </select> <br><br>
+         <label for="#">Interest:</label><br>
+         <input type="checkbox" id="sport">
+         <label for="sport">sport</label><br>
+         <input type="checkbox" id="Music">
+         <label for="Music">Music</label><br>
+         <input type="checkbox" id="sport">
+         <label for="Reading">Reading</label>
+
+
+    </fieldset>
+</div>
+<div>
+    <fieldset>
+        <legend>Account Setup</legend>
+
+        <label>UserName:</label><br>
+        <input type="text"><br>
+        <br>
         <label>Password:</label><br>
+        <input type="password"><br>
+        <br>
+        <label>Confirm Password:</label><br>
         <input type="password">
-    <br>
-    <br>
-    <button>Login</button>
-    </div>
-</fieldset>
+    </fieldset>
+</div>
+<button>Sign up</button>
 </body>
 </html>
