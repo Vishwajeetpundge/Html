@@ -1,0 +1,22 @@
+<h3>demo on var VS let</h3>
+<script>
+   var x=100;  // var declaration
+   document.write(x,'<br>');
+
+   var x="ecma"; //var defination
+   //let x="ecma"; error
+   document.write(x,'<br>');
+
+   var x=true;  //var defination
+   document.write(x,'<br>');
+
+   //hoisting
+   y=15;
+   document.write(y,'<br>');
+   document.write(y*10,'<br>');
+   var y;//y is hoisting
+   //let y;  error
+   z="apple";
+   document.write(z);
+   var z;  //hoisting
+</script>
